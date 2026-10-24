@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 1280" width="720" height="1280" fill="none">
+  <defs>
+    <linearGradient id="gymBg" x1="0" y1="0" x2="720" y2="1280" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#EDE7DF" />
+      <stop offset="60%" stop-color="#DFD5C8" />
+      <stop offset="100%" stop-color="#C8BBN9" />
+    </linearGradient>
+    <linearGradient id="matteTub" x1="180" y1="380" x2="540" y2="940" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2A2827" />
+      <stop offset="45%" stop-color="#171615" />
+      <stop offset="100%" stop-color="#0D0C0C" />
+    </linearGradient>
+    <linearGradient id="goldAccent" x1="190" y1="500" x2="530" y2="540" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#E5C17B" />
+      <stop offset="50%" stop-color="#C49A45" />
+      <stop offset="100%" stop-color="#8C6823" />
+    </linearGradient>
+    <filter id="tubShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="20" dy="30" stdDeviation="24" flood-color="#171717" flood-opacity="0.25" />
+    </filter>
+  </defs>
+
+  <rect width="720" height="1280" fill="url(#gymBg)" />
+
+  <!-- Architectural Gym Studio Grid Accent -->
+  <line x1="0" y1="950" x2="720" y2="950" stroke="#BDB1A2" stroke-width="2" />
+  <rect x="0" y="950" width="720" height="330" fill="#D5C9BA" />
+
+  <!-- Matte Protein Container -->
+  <g filter="url(#tubShadow)">
+    <!-- Screw Lid -->
+    <rect x="218" y="340" width="284" height="58" rx="10" fill="#1E1D1C" stroke="#383532" stroke-width="1.5" />
+    <!-- Neck Taper -->
+    <polygon points="234,398 486,398 516,445 204,445" fill="#232120" />
+    <!-- Main Tub Cylinder -->
+    <rect x="196" y="440" width="328" height="495" rx="28" fill="url(#matteTub)" stroke="#33302E" stroke-width="1.5" />
+
+    <!-- Metallic Gold Bands -->
+    <rect x="196" y="495" width="328" height="18" fill="url(#goldAccent)" />
+    <rect x="196" y="845" width="328" height="12" fill="url(#goldAccent)" />
+
+    <!-- Crimson Label Accent Strip -->
+    <rect x="196" y="540" width="328" height="275" fill="#141312" />
+    <rect x="226" y="555" width="6" height="245" fill="#A52332" />
+
+    <!-- Typography on Tub -->
+    <text x="252" y="592" fill="#E5C17B" font-family="sans-serif" font-size="14" font-weight="700" letter-spacing="3">OPTIMUM NUTRITION</text>
+    <text x="252" y="644" fill="#FFFFFF" font-family="serif" font-size="38" font-weight="700">GOLD STANDARD</text>
+    <text x="252" y="688" fill="#A52332" font-family="sans-serif" font-size="24" font-weight="700" letter-spacing="2">100% WHEY</text>
+    <line x1="252" y1="712" x2="480" y2="712" stroke="#3A3633" stroke-width="1.5" />
+    <text x="252" y="742" fill="#D6CEC2" font-family="sans-serif" font-size="13" font-weight="600" letter-spacing="1.2">DOUBLE RICH CHOCOLATE</text>
+    <text x="252" y="772" fill="#8C857B" font-family="sans-serif" font-size="12" letter-spacing="1">24G PROTEIN · 5.5G BCAAS</text>
+
+    <!-- Rim Specular Highlight -->
+    <rect x="214" y="452" width="12" height="470" rx="6" fill="#FFFFFF" fill-opacity="0.08" />
+  </g>
+
+  <rect x="36" y="36" width="648" height="1208" rx="16" stroke="#171717" stroke-opacity="0.08" stroke-width="1.5" />
+</svg>

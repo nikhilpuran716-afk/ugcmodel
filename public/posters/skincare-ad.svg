@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 1280" width="720" height="1280" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="720" y2="1280" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F6F1EA" />
+      <stop offset="55%" stop-color="#EAE0D3" />
+      <stop offset="100%" stop-color="#DCD0C0" />
+    </linearGradient>
+    <linearGradient id="sunlight" x1="0" y1="150" x2="720" y2="850" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.72" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="bottleGlass" x1="250" y1="420" x2="470" y2="940" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFDF9" stop-opacity="0.92" />
+      <stop offset="50%" stop-color="#F5EDE2" stop-opacity="0.88" />
+      <stop offset="100%" stop-color="#E5D7C5" stop-opacity="0.95" />
+    </linearGradient>
+    <linearGradient id="serumLiquid" x1="265" y1="560" x2="455" y2="920" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F4C97E" stop-opacity="0.55" />
+      <stop offset="100%" stop-color="#D99B4E" stop-opacity="0.75" />
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="18" dy="28" stdDeviation="24" flood-color="#5C4D3C" flood-opacity="0.18" />
+    </filter>
+  </defs>
+
+  <!-- Warm Travertine Background -->
+  <rect width="720" height="1280" fill="url(#bgGrad)" />
+
+  <!-- Architectural Morning Window Light Beams -->
+  <polygon points="0,80 720,380 720,760 0,440" fill="url(#sunlight)" />
+  <polygon points="0,520 720,820 720,1040 0,720" fill="url(#sunlight)" opacity="0.5" />
+
+  <!-- Travertine Pedestal Slab -->
+  <ellipse cx="360" cy="965" rx="220" ry="38" fill="#CBBBA6" />
+  <rect x="140" y="965" width="440" height="95" fill="#D5C7B4" />
+  <ellipse cx="360" cy="965" rx="220" ry="38" fill="#E9DFD2" stroke="#CBBBA6" stroke-width="1.5" />
+
+  <!-- Cast Shadow on Pedestal -->
+  <ellipse cx="395" cy="958" rx="95" ry="18" fill="#8C7A65" opacity="0.28" />
+
+  <!-- Serum Dropper Bottle -->
+  <g filter="url(#softShadow)">
+    <!-- Rubber Pipette Bulb -->
+    <path d="M332 310 C332 276, 388 276, 388 310 L392 385 L328 385 Z" fill="#1F1E1D" />
+    <!-- Collar Ring -->
+    <rect x="314" y="382" width="92" height="44" rx="4" fill="#2B2927" />
+    <line x1="322" y1="392" x2="398" y2="392" stroke="#57534E" stroke-width="1.5" />
+    <!-- Neck -->
+    <rect x="330" y="426" width="60" height="36" fill="#EDE4D7" stroke="#D1C4B2" stroke-width="1.5" />
+    <!-- Main Frosted Bottle Body -->
+    <rect x="262" y="458" width="196" height="486" rx="28" fill="url(#bottleGlass)" stroke="#D4C7B6" stroke-width="2" />
+    <!-- Vitamin C Golden Serum Fill -->
+    <rect x="270" y="575" width="180" height="360" rx="22" fill="url(#serumLiquid)" />
+    <!-- Glass Pipette Tube Inside -->
+    <rect x="353" y="458" width="14" height="385" rx="7" fill="#FFFFFF" fill-opacity="0.45" stroke="#D9C3A4" stroke-width="1" />
+    <!-- Minimalist Clinical Label -->
+    <rect x="278" y="540" width="164" height="290" rx="4" fill="#FFFFFF" stroke="#E5E0D8" stroke-width="1.5" />
+    <!-- Label Typography Lines -->
+    <text x="296" y="578" fill="#171717" font-family="sans-serif" font-size="15" font-weight="700" letter-spacing="1.5">MINIMALIST</text>
+    <line x1="296" y1="594" x2="424" y2="594" stroke="#171717" stroke-width="1.5" />
+    <text x="296" y="634" fill="#171717" font-family="serif" font-size="23" font-weight="600">Vitamin C 10%</text>
+    <text x="296" y="660" fill="#6F6B67" font-family="sans-serif" font-size="11" letter-spacing="0.8">+ ACETYL GLUCOSAMINE 1%</text>
+    <rect x="296" y="688" width="84" height="2" fill="#A52332" />
+    <text x="296" y="726" fill="#6F6B67" font-family="sans-serif" font-size="11">Brightening &amp; Daily Glow</text>
+    <text x="296" y="746" fill="#6F6B67" font-family="sans-serif" font-size="11">All Skin Types · 30 ml</text>
+    <!-- Glass Highlight Reflection -->
+    <rect x="276" y="476" width="10" height="448" rx="5" fill="#FFFFFF" fill-opacity="0.65" />
+  </g>
+
+  <!-- Dewy Water Droplets -->
+  <circle cx="215" cy="962" r="7" fill="#FFFFFF" fill-opacity="0.7" />
+  <circle cx="232" cy="974" r="4" fill="#FFFFFF" fill-opacity="0.6" />
+  <circle cx="495" cy="968" r="6" fill="#FFFFFF" fill-opacity="0.65" />
+
+  <!-- Editorial Frame Border -->
+  <rect x="36" y="36" width="648" height="1208" rx="16" stroke="#171717" stroke-opacity="0.08" stroke-width="1.5" />
+</svg>

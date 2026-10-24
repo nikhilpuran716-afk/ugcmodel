@@ -1,0 +1,6 @@
+{
+  "name": "Faceless UGC Studio",
+  "description": "Portfolio and creative studio of Nikhil Anand — UGC Ad Creator & AI Creative Specialist in Delhi, India.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
